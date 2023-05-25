@@ -1,0 +1,48 @@
+body {
+    background-image: url(https://bogatyr.club/uploads/posts/2023-01/thumbs/1674769399_bogatyr-club-p-nochnoe-nebo-so-zvezdami-fon-instagram-4.jpg);
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center, space-around, space-between;
+    align-items: end;
+    padding-top: 40vh;
+    transition: all 1s ease-in-out;
+    box-sizing: border-box;
+}
+.object{
+    cursor: pointer;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 100px;
+    
+}
+/*.object img {
+    width: 250px;
+    height: 250px;
+}*/
+.object h1{
+    color: red;
+    opacity: 0%;
+    position: absolute;
+}
+/*.object p {
+    color: red;
+    opacity: 0%;
+    position: absolute;
+}*/
+.object .big{
+    filter: none;
+    transform: translateY(-170px);
+    transform: scale(2);
+}
+.object .big h1{
+    opacity: 100%;
+    transition: opacity 0.3s ease-in 0.1s;
+}
+/*.object .big p{
+    opacity: 100%;
+    transition: opacity 0.3s ease-in 0.1s;
+}*/
